@@ -6,13 +6,17 @@ const homeConfig = {
 
     greeting:
         <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Matt Wheeler</strong>
+            <strong className="main-name">Matt Wheeler</strong>
         </h1>,
     titles: [
-        "Data Scientist",
-        "Machine Learning Specialist",
         "Data Engineer",
-        "Backend Developer"
+        "Data Scientist",
+        "Machine Learning Practitioner",
+        "USF MSDS Cohort 11",
+        "UoM Physics Graduate 2019",
+        "Proud Welshman",
+        "Keen Mountaineer",
+        "Scroll down for more information"
     ],
     about: {
         start: "I've been working for over six years on data science projects. " +
@@ -27,7 +31,7 @@ const homeConfig = {
             title: "Data Engineer",
             company: "PG&E",
             description: "Led backend data infrastructure initiatives within the computer vision team, " +
-                "overseeing end-to-end development of data pipelines, automation, and database migrations ",
+                "overseeing end-to-end development of data pipelines, automation, and database data & schema migrations ",
             date: "2022 - Present",
             icon: <BsFillBriefcaseFill/>,
             tags: ["Python", "AWS", "Lambda", "ETL", "Docker", "PostgreSQL", "Alembic"]
@@ -36,8 +40,8 @@ const homeConfig = {
             id: "work-2",
             title: "MS Data Science",
             company: "University of San Francisco",
-            description: "Industry-focused advanced degree program providing comprehensive expertise in ML and " +
-                "data engineering principles. Maintained emphasis on practical application through intensive, project-based learning.",
+            description: "Industry-focused degree providing expertise in ML and " +
+                "data engineering principles. Strong emphasis on practical application through intensive, project-based learning.",
             date: "2022 - 2023",
             icon: <IoMdSchool/>,
             tags: ["Python", "SQL", "NoSQL", "ML", "NLP", "Distributed Computing", "Deep Learning", "MLOps", "Data Engineering"]
@@ -46,11 +50,11 @@ const homeConfig = {
             id: "work-1",
             title: "Data Scientist",
             company: "Deloitte",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
+            description: "Developed customized ML and data engineering solutions for global clients, specializing in NLP, computer " +
+                "vision, and data ETL infrastructure projects. Collaborated closely with senior stakeholders and executives.",
             date: "2019 - 2022",
             icon: <BsFillBriefcaseFill/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
+            tags: ["Python", "SQL", "ETL", "NLP", "Computer Vision", "AWS", "PyTorch"]
         },
         {
             id: "work-0",
@@ -59,7 +63,7 @@ const homeConfig = {
             description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
             date: "2018 - 2019",
             icon: <IoMdSchool/>,
-            tags: ["python", "mssql", "pbi", "excel"]
+            tags: ["Python", "L2 Regression", "Random Forests", "Monte Carlo Methods", "Fourier Analysis"]
         },
         {
             id: "work-0",

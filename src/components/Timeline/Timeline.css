@@ -34,6 +34,7 @@
 }
 
 .vertical-timeline-element-date {
-    color: #263238;
+    color: #ffe482;
+    font-size: 20px !important;
     margin: 0 20px;
 }
