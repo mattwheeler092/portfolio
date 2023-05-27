@@ -5,7 +5,7 @@ const About = (props) => {
     const aboutExit = props.about.exit
 
     return (
-        <section id="about">
+        <section id="about" style={{'max-width': '1100px', 'margin': 'auto'}}>
             <div className="about-card" style={{backgroundColor: "#263238"}}>
                 <div className="card-header">
                     <span

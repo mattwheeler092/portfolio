@@ -1,21 +1,18 @@
 import React from 'react'
-import {BsClipboardData} from "react-icons/bs";
-import {DiCodeigniter} from "react-icons/di";
-import {GiCommercialAirplane} from "react-icons/gi";
-import {FaMobileAlt} from "react-icons/fa";
+import { IoMdSchool } from 'react-icons/io';
+import { BsFillBriefcaseFill } from 'react-icons/bs';
 
 const homeConfig = {
 
     greeting:
         <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Rodrigo Arenas</strong>
+            Hi! I'm <strong className="main-name"> Matt Wheeler</strong>
         </h1>,
     titles: [
         "Data Scientist",
         "Machine Learning Specialist",
-        "Open Source Contributor",
-        "Backend Developer",
-        "Colombian"
+        "Data Engineer",
+        "Backend Developer"
     ],
     about: {
         start: "I've been working for over six years on data science projects. " +
@@ -27,41 +24,50 @@ const homeConfig = {
     workTimeline: [
         {
             id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-present",
-            icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+            title: "Data Engineer",
+            company: "PG&E",
+            description: "Led backend data infrastructure initiatives within the computer vision team, " +
+                "overseeing end-to-end development of data pipelines, automation, and database migrations ",
+            date: "2022 - Present",
+            icon: <BsFillBriefcaseFill/>,
+            tags: ["Python", "AWS", "Lambda", "ETL", "Docker", "PostgreSQL", "Alembic"]
         },
         {
             id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: "2019-2021",
-            icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+            title: "MS Data Science",
+            company: "University of San Francisco",
+            description: "Industry-focused advanced degree program providing comprehensive expertise in ML and " +
+                "data engineering principles. Maintained emphasis on practical application through intensive, project-based learning.",
+            date: "2022 - 2023",
+            icon: <IoMdSchool/>,
+            tags: ["Python", "SQL", "NoSQL", "ML", "NLP", "Distributed Computing", "Deep Learning", "MLOps", "Data Engineering"]
         },
         {
             id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
+            title: "Data Scientist",
+            company: "Deloitte",
             description: "Tech leader of a BI, Data Science and DBA team. " +
                 "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
-            icon: <GiCommercialAirplane/>,
+            date: "2019 - 2022",
+            icon: <BsFillBriefcaseFill/>,
             tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
         },
         {
             id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
+            title: "MS Physics",
+            company: "University of Manchester",
             description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
+            date: "2018 - 2019",
+            icon: <IoMdSchool/>,
+            tags: ["python", "mssql", "pbi", "excel"]
+        },
+        {
+            id: "work-0",
+            title: "BS Physics",
+            company: "University of Manchester",
+            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
+            date: "2015 - 2018",
+            icon: <IoMdSchool/>,
             tags: ["python", "mssql", "pbi", "excel"]
         }
     ]

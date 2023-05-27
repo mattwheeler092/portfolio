@@ -20,7 +20,7 @@ const Timeline = (props) => {
                     <h2 className="vertical-timeline-element-title">
                         <strong>{item.title}</strong>
                     </h2>
-                    <h4 className="vertical-timeline-element-subtitle">{item.company}</h4>
+                    <h4 className="vertical-timeline-element-subtitle" style={{'text-align': 'center'}}>{item.company}</h4>
                     <p className={"vertical-timeline-element-description"}>
                         {item.description}
                     </p>

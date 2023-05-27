@@ -8,11 +8,11 @@
     display: inline-block;
     flex-direction: row;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 0.5rem;
     text-align: center;
     background-color: #263238;
-    margin: 2.5rem;
-    border-radius: 25px;
+    margin: 0.5rem;
+    border-radius: 5px;
 }
 
 .sec-skill-icon {
