@@ -11,8 +11,8 @@ const homeConfig = {
             <strong className="main-name">Matt Wheeler</strong>
         </h1>,
     titles: [
-        "Data Engineer",
         "Data Scientist",
+        "Data Engineer",
         "Machine Learning Practitioner",
         "USF MSDS Cohort 11",
         "UoM Physics Graduate 2019",
@@ -20,11 +20,12 @@ const homeConfig = {
         "Scroll down for more information"
     ],
     about: {
-        start: "I've been working for over six years on data science projects. " +
-            "I'm excited by learning new things, contributing to the data science community," +
-            " and spreading the word of data!",
-        exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
-            "with a deep interest in machine learning."
+        start: "I'm a data scientist with a passion for developing custom " +
+        "machine learning and data infrastructure solutions. ",
+
+        exit: "Throughout the last three years, "+
+        "I have refined my skills by collaborating closely with clients, executives, and stakeholders "+
+        "across diverse industries, to deliver impactful data-driven solutions.",
     },
     workTimeline: [
         {

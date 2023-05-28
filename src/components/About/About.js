@@ -34,8 +34,9 @@ const About = (props) => {
                         <img src={homeConfig.profile_url} className={"center-img"} alt="Image"/>
                     </div>
                     <div class="text-column">
-                        <div class="about-header">About</div>
-                        <div class="about-contents">{about}<br/><br/>{aboutExit}</div>
+                        <div class="about-header">About Me</div>
+                        <div class="about-contents" style={{paddingBottom: "20px"}}>{about}</div>
+                        <div class="about-contents">{aboutExit}</div>
                     </div>
                 </div>
             </div>
