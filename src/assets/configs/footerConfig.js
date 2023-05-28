@@ -30,7 +30,7 @@ const footerConfig = {
         
         {
             id: "footer-3",
-            url: "https://drive.google.com/file/d/1-5qrR60hdRhUubcsEr3-szsRk1xXkURD/view?usp=sharing",
+            url: "https://drive.google.com/file/d/1-BncbFlnHyL9fRq0XxFJRmHUwvxuOX-n/view?usp=sharing",
             className: "social-icon",
             target: "_blank",
             icon: <FaFilePdf size={30}/>

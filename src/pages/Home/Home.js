@@ -34,7 +34,7 @@ const Home = () => {
                     <a title="Github" href="https://github.com/mattwheeler092" target="_blank" class="circle-link">
                         <BsGithub size={icon_size} class="link-icon"/>
                     </a>
-                    <a title="Resume" href="https://drive.google.com/file/d/1-5qrR60hdRhUubcsEr3-szsRk1xXkURD/view?usp=sharing" target="_blank" class="circle-link">
+                    <a title="Resume" href="https://drive.google.com/file/d/1-BncbFlnHyL9fRq0XxFJRmHUwvxuOX-n/view?usp=sharing" target="_blank" class="circle-link">
                         <FaFilePdf size={icon_size} class="link-icon"/>
                     </a>
                     <a title="Blog" href="" class="circle-link">
