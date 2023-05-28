@@ -1,0 +1,39 @@
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: auto;
+  }
+
+.custom-div {
+    height: auto;
+    font-size: 132%;
+    line-height: 150%;
+    background-color: #F6F6F6;
+    color: #2e2e2d;
+    padding: 2rem;
+    display: flex;
+  }
+
+.image-column {
+    flex: 1;
+    padding-left: 0px;
+}
+
+.text-column {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.about-header {
+    font-size: 30px !important;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-contents {
+    text-align: justify;
+}

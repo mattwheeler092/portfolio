@@ -1,30 +1,46 @@
-import {AiFillGithub} from "react-icons/ai";
-import {FaLinkedinIn} from "react-icons/fa";
-import {BsMedium} from "react-icons/bs";
 import React from "react";
+
+import { AiFillLinkedin } from 'react-icons/ai'
+import { BsGithub, BsFillChatSquareTextFill } from "react-icons/bs"
+import { FaEnvelope, FaFilePdf } from 'react-icons/fa'
 
 const footerConfig = {
     icons: [
         {
             id: "footer-0",
-            url: "https://github.com/rodrigo-arenas",
+            url: "mailto:mattwheeler092@googlemail.com",
             className: "social-icon",
             target: "_blank",
-            icon: <AiFillGithub size={50}/>
+            icon: <FaEnvelope size={30}/>
         },
         {
             id: "footer-1",
-            url: "https://linkedin.com/in/rodrigo-arenas-gomez",
+            url: "https://www.linkedin.com/in/mattwheeler092/",
             className: "social-icon",
             target: "_blank",
-            icon: <FaLinkedinIn size={50}/>
+            icon: <AiFillLinkedin size={30}/>
         },
         {
             id: "footer-2",
-            url: "https://rodrigo-arenas.medium.com",
+            url: "https://github.com/mattwheeler092",
             className: "social-icon",
             target: "_blank",
-            icon: <BsMedium size={50}/>
+            icon: <BsGithub size={30}/>
+        },
+        
+        {
+            id: "footer-3",
+            url: "https://drive.google.com/file/d/1-5qrR60hdRhUubcsEr3-szsRk1xXkURD/view?usp=sharing",
+            className: "social-icon",
+            target: "_blank",
+            icon: <FaFilePdf size={30}/>
+        },
+        {
+            id: "footer-4",
+            url: "",
+            className: "social-icon",
+            // target: "_blank",
+            icon: <BsFillChatSquareTextFill size={30}/>
         }
     ]
 }

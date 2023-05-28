@@ -1,4 +1,7 @@
 import React from "react";
+import "./About.css"
+
+import homeConfig from "../../assets/configs/homeConfig";
 
 const About = (props) => {
     const about = props.about.start
@@ -26,20 +29,14 @@ const About = (props) => {
                         data-inline="false"
                     />
                 </div>
-                <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
-                    style={{
-                        height: "auto",
-                        fontSize: "132%",
-                        lineHeight: "150%",
-                        backgroundColor: "#F6F6F6",
-                        color: "#2e2e2d",
-                        padding: "2rem"
-                    }}
-                >
-                    {about}
-                    <br/>
-                    {aboutExit}
+                <div class="custom-div">
+                    <div class="image-column">
+                        <img src={homeConfig.profile_url} className={"center-img"} alt="Image"/>
+                    </div>
+                    <div class="text-column">
+                        <div class="about-header">About</div>
+                        <div class="about-contents">{about}<br/><br/>{aboutExit}</div>
+                    </div>
                 </div>
             </div>
         </section>

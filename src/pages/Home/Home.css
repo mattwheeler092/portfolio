@@ -1,3 +1,13 @@
+/* body { */
+  /* background: url("https://i.ibb.co/zXG1ppG/profile.jpg") no-repeat center center fixed;
+  background-size: cover; */
+  /* Additional styling properties */
+/* } */
+
+.home-content {
+  flex: 1;
+}
+
 .home-header h1 {
     color: #494949;
     font-size: 5em;
@@ -29,7 +39,7 @@
 }
 
 .about-card {
-    margin-top: 45px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -45,7 +55,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 380px;
     height: auto;
   }
 
@@ -61,6 +71,19 @@
   .header-icons {
     display: flex;
     justify-content: center;
+  }
+
+  .down-arrow-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .down-arrow {
+    font-size: 2em;
+    color: white;
   }
   
   .circle-link {

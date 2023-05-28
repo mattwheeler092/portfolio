@@ -4,6 +4,8 @@ import { BsFillBriefcaseFill } from 'react-icons/bs';
 
 const homeConfig = {
 
+    profile_url: "https://i.ibb.co/zXG1ppG/profile.jpg",
+
     greeting:
         <h1 className="heading">
             <strong className="main-name">Matt Wheeler</strong>
@@ -14,7 +16,6 @@ const homeConfig = {
         "Machine Learning Practitioner",
         "USF MSDS Cohort 11",
         "UoM Physics Graduate 2019",
-        "Proud Welshman",
         "Keen Mountaineer",
         "Scroll down for more information"
     ],
@@ -60,7 +61,7 @@ const homeConfig = {
             id: "work-0",
             title: "MS Physics",
             company: "University of Manchester",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
+            description: "Master's degree focused on machine learning research in astrophysics, developing novel automated classification methods for unidentified stars.",
             date: "2018 - 2019",
             icon: <IoMdSchool/>,
             tags: ["Python", "L2 Regression", "Random Forests", "Monte Carlo Methods", "Fourier Analysis"]
@@ -69,10 +70,10 @@ const homeConfig = {
             id: "work-0",
             title: "BS Physics",
             company: "University of Manchester",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
+            description: "Bachelor's degree providing fundamental knowledge in theoretical and practical physics along with advanced mathematical concepts.",
             date: "2015 - 2018",
             icon: <IoMdSchool/>,
-            tags: ["python", "mssql", "pbi", "excel"]
+            tags: ["Linear Algebra", "Calculus", "Python", "C++", "OOP", "Statistical Physics", "Data Analysis"]
         }
     ]
 }
