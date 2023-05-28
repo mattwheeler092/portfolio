@@ -1,9 +1,3 @@
-/* body { */
-  /* background: url("https://i.ibb.co/zXG1ppG/profile.jpg") no-repeat center center fixed;
-  background-size: cover; */
-  /* Additional styling properties */
-/* } */
-
 body, html {
   height: 100%;
   margin: 0;
@@ -13,9 +7,7 @@ body, html {
 .home-content {
   flex: 1;
   height: 100vh;
-  /* background-image: url("https://i.ibb.co/zXG1ppG/profile.jpg"); */
 }
-
 
 .home-header h1 {
     color: #494949;
@@ -28,7 +20,6 @@ body, html {
 .main-name {
     color: #d1d1d1;
 }
-
 
 .dynamic-typing {
   text-align: center;
@@ -123,12 +114,12 @@ body, html {
   }
   
   .circle-link:hover .link-icon {
-    color: #3d5879; /* Replace "red" with your desired color */
+    color: #3d5879;
   }
   
   .link-icon {
     color: #ffffff;
-    transition: color 0.3s; /* Add transition for color property */
+    transition: color 0.3s; 
   }
   
   .scroll-to {
@@ -142,11 +133,9 @@ body, html {
     }
     50% {
       transform: translateY(-10px);
-      color: blue;
     }
     100% {
       transform: translateY(0);
-      color: red;
     }
   }
 
