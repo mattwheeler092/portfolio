@@ -6,12 +6,10 @@ import Timeline from "../../components/Timeline/Timeline";
 import homeConfig from "../../assets/configs/homeConfig";
 import Footer from '../../components/Footer/Footer';
 
-
 import { AiFillLinkedin } from 'react-icons/ai'
 import { BsGithub, BsFillChatSquareTextFill } from "react-icons/bs"
 import { FaEnvelope, FaFilePdf } from 'react-icons/fa'
-import { FaAngleDown } from "react-icons/fa"
-
+import { HiChevronDown } from "react-icons/hi"
 
 import "./Home.css"
 
@@ -39,14 +37,14 @@ const Home = () => {
                     <a title="Resume" href="https://drive.google.com/file/d/1-5qrR60hdRhUubcsEr3-szsRk1xXkURD/view?usp=sharing" target="_blank" class="circle-link">
                         <FaFilePdf size={icon_size} class="link-icon"/>
                     </a>
-                    <a title="Blog" href="" target="_blank" class="circle-link">
+                    <a title="Blog" href="" class="circle-link">
                         <BsFillChatSquareTextFill size={icon_size} class="link-icon"/>
                     </a>
                 </div>
                 <div class="down-arrow-container">
                     <i class="bobbing-icon">
                         <a href="#scoll-to">
-                            <FaAngleDown class="down-arrow"/>
+                            <HiChevronDown class="down-arrow"/>
                         </a>
                     </i>
                 </div>
@@ -62,7 +60,6 @@ const Home = () => {
             </div>
             <Footer/>
         </section>)
-
 }
 
 export default Home

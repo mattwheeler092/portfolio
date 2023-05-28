@@ -13,7 +13,7 @@ body, html {
 .home-content {
   flex: 1;
   height: 100vh;
-  /* background-image: url("https://i.ibb.co/zXG1ppG/profile.jpg") ; */
+  /* background-image: url("https://i.ibb.co/zXG1ppG/profile.jpg"); */
 }
 
 
@@ -21,12 +21,19 @@ body, html {
     color: #494949;
     font-size: 5em;
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 20px;
+    padding-top: 10%;
+    padding-bottom: 0%;
 }
 
 .main-name {
     color: #d1d1d1;
+}
+
+
+.dynamic-typing {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 3%;
 }
 
 .Typewriter__wrapper {
@@ -74,8 +81,8 @@ body, html {
     place-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5%;
-    padding-bottom: 3%;
+    padding-top: 0%;
+    padding-bottom: 17%;
 }
 
 
@@ -85,15 +92,15 @@ body, html {
   }
 
   .down-arrow-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0%;
+    padding-bottom: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .down-arrow {
-    font-size: 2em;
+    font-size: 5em;
     color: white;
   }
   
@@ -148,9 +155,3 @@ body, html {
     animation: bob 2s infinite;
     transition: color 0.3s;
   }
-
-.dynamic-typing {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
