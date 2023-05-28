@@ -26,7 +26,7 @@
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.662884018971109,
       "random": true,
       "anim": {
         "enable": false,
@@ -47,10 +47,10 @@
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 130,
       "color": "#fcedbe",
-      "opacity": 0.4,
-      "width": 1
+      "opacity": 0.26041872173865,
+      "width": 0.8
     },
     "move": {
       "enable": true,
@@ -106,5 +106,5 @@
       }
     }
   },
-  "retina_detect": true
+  "retina_detect": false
 }
