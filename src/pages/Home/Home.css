@@ -4,15 +4,24 @@
   /* Additional styling properties */
 /* } */
 
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .home-content {
   flex: 1;
+  height: 100vh;
+  /* background-image: url("https://i.ibb.co/zXG1ppG/profile.jpg") ; */
 }
+
 
 .home-header h1 {
     color: #494949;
     font-size: 5em;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10%;
     margin-bottom: 20px;
 }
 
@@ -65,6 +74,8 @@
     place-items: center;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 
@@ -90,14 +101,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: transparent;
     border: 2px solid white;
-    transition: background-color 0.3s, color 0.3s; /* Add transition for both background-color and color properties */
-    margin-right: 10px;
-    padding: 10px;
+    transition: background-color 0.3s, color 0.3s; 
+    margin-right: 15px;
+    padding: 0px;
   }
   
   .circle-link:hover {
@@ -109,8 +120,37 @@
   }
   
   .link-icon {
-    size: 200px;
     color: #ffffff;
     transition: color 0.3s; /* Add transition for color property */
   }
   
+  .scroll-to {
+    padding-bottom: 50px;
+  }
+
+
+  @keyframes bob {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+      color: blue;
+    }
+    100% {
+      transform: translateY(0);
+      color: red;
+    }
+  }
+
+  .bobbing-icon {
+    size: 200px;
+    animation: bob 2s infinite;
+    transition: color 0.3s;
+  }
+
+.dynamic-typing {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

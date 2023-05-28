@@ -29,7 +29,7 @@ function App() {
                     <Route path={"/blogs"} exact element={<Blogs/>}/>
                     <Route path={"/skills"} exact element={<Skills/>}/>
                 </Routes>
-                <Footer/>
+                {/* <Footer/> */}
             </div>
         </Router>
 
