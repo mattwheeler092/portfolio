@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2df2ce85.css",
+    "main.js": "/portfolio/static/js/main.ad923030.js",
+    "static/media/sklearn_genetic_opt.png": "/portfolio/static/media/sklearn_genetic_opt.15b892adf6368a965618.png",
+    "static/media/tripadvisor-scraper-icon.png": "/portfolio/static/media/tripadvisor-scraper-icon.045c8c40418285aad0be.png",
+    "static/media/fastapi_sklearn.png": "/portfolio/static/media/fastapi_sklearn.0bfaec4cff582eb26751.png",
+    "static/media/solar-savings-icon.png": "/portfolio/static/media/solar-savings-icon.86635842ebbb6ca47723.png",
+    "static/media/portfolio-icon.png": "/portfolio/static/media/portfolio-icon.b597309b2fb7a4b1aa02.png",
+    "static/media/travo-recommender-icon.png": "/portfolio/static/media/travo-recommender-icon.1fb2d9ed9b526bdb947a.png",
+    "index.html": "/portfolio/index.html",
+    "main.2df2ce85.css.map": "/portfolio/static/css/main.2df2ce85.css.map",
+    "main.ad923030.js.map": "/portfolio/static/js/main.ad923030.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2df2ce85.css",
+    "static/js/main.ad923030.js"
+  ]
+}
